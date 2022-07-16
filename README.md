@@ -1,2 +1,2 @@
-# automations
-Some Automations to make my life a little easier
+# Automations
+Some automations to make my life a little easier
