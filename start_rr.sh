@@ -5,7 +5,7 @@ cd $HOME/Documents/runrunit/
 gnome-terminal --tab --title="terminal" -- zsh -c "git fetch upstream; $SHELL"
 gnome-terminal --tab --title="foreman" -- zsh -c "foreman start -f foreman start -f Procfile.dev.linux; $SHELL"
 gnome-terminal --tab --title="rails s" -- zsh -c "rails s; $SHELL"
-gnome-terminal --maximize -- bash -c "cd $HOME/Documents/runrunit/; lvim"
+gnome-terminal --maximize -- bash -c "cd $HOME/Documents/runrunit/; nvim"
 
 firefox 'https://mail.google.com/chat/u/0/#chat/welcome' & disown firefox
 firefox 'https://runrun.it/en-US' & disown firefox
