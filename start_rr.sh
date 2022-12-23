@@ -12,8 +12,8 @@ firefox 'https://github.com/modiax/anglerfish/pulls' & disown firefox
 
 slack & disown slack
 spotify & disown spotify
+yubioath-desktop & disown yubioath-desktop
 
-sleep 30
+sleep 50
 firefox 'localhost:3000/' & disown firefox
 
-exit
